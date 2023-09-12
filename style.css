@@ -1,0 +1,110 @@
+:root {
+    --cursive: 'Comforter Brush', cursive;
+    --bojaslova: rgb(145, 145, 145);
+}
+
+
+body {
+    background-color: black;
+    color: var(--bojaslova);
+}
+
+.crvena {
+    color:  rgb(92, 1, 1);
+}
+
+.crna{
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+.senka {
+    text-shadow: 2px 2px 2px black, -2px -2px 2px black; 
+}
+
+h1 {
+    color: rgb(229, 228, 228);
+    font-size: 10vw;
+    text-shadow: 3px 3px 3px black, -3px -3px 3px black;
+}
+
+hr{
+    height: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: var(--cursive);
+    background-color: rgba(0, 0, 0, 0.011);
+
+}
+ li {
+    list-style: none;
+    color: var(--bojaslova);
+    font-size: 23px;
+ }
+
+a {
+    color: var(--bojaslova);
+    text-decoration: underline;
+    text-decoration-color: rgb(125, 1, 1);;
+}
+
+.hero{
+    background-image: url(./img/img/CVL28.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    background-color: black;
+}
+
+
+
+.hero .container{
+    height: 60vh;
+}
+
+.hero h4 {
+    font-family: var(--cursive);
+}
+
+.about, .welcome, .gallery{
+    background-color: rgb(0, 0, 0);
+}
+
+.info{
+    background-image: url(img/img/ratnik.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+.info h2 {
+    font-family: var(--cursive);
+    color:  rgb(147, 6, 6);
+    text-shadow: 1px 1px 1px white;
+}
+
+
+.contact a{
+    color: var(--bojaslova);
+    text-decoration: none;
+}
+
+.card {
+    background-color: rgb(84, 83, 83);
+    color: var(--bojaslova);
+}
+
+footer {
+    background-color: rgb(68, 2, 2);
+    padding: 10px;
+}
